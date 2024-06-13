@@ -42,6 +42,7 @@ namespace OpenAI
         {
             if (apiKey != null)
             {
+                Debug.Log("Configuring API Key");
                 configuration = new Configuration(apiKey, organization);
             }
         }
